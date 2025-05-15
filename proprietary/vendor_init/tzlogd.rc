@@ -1,0 +1,21 @@
+on post-fs-data
+    mkdir /data/vendor/tzlogd 0770 log log
+
+service vendor.tzlogd /vendor/bin/tzlogd
+    class last_start
+    user log
+    group log
+    task_profiles ServiceCapacityLow
+    disabled
+
+on property:persist.vendor.log.tzlogd.enable=1
+    start vendor.tzlogd
+
+on property:persist.vendor.log.tzlogd.enable=0
+    stop vendor.tzlogd
+
+on post-fs && property:ro.boot.force_aplogd_enable=1
+    setprop persist.vendor.log.tzlogd.enable 1
+
+on post-fs && property:ro.boot.force_aplogd_enable=0
+    setprop persist.vendor.log.tzlogd.enable 0

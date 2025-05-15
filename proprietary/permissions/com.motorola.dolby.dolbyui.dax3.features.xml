@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Feature for 2021 products. -->
+    <feature name="com.motorola.software.dolby.motodolbyui" />
+    <privapp-permissions package="com.motorola.dolby.dolbyui">
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="com.motorola.permission.ACCESS_CHECKIN" />
+    </privapp-permissions>
+
+</permissions>

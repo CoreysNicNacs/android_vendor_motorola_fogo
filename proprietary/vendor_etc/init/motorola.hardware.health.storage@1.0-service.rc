@@ -1,0 +1,7 @@
+service vendor.mot.health-storage-hal-1-0 /vendor/bin/hw/motorola.hardware.health.storage@1.0-service
+    interface motorola.hardware.health.storage@1.0::IMotStorage default
+    oneshot
+    disabled
+    class hal
+    user system
+    group system

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+    <SETTINGS cameraid="0">
+        <COMMAND>
+            <TITLE>LTE 20 M B1 24.5 dBm</TITLE>
+            <START>LTE_B1_300_20M_Tx_On_ANT1</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20 M B7 24.5 dBm</TITLE>
+            <START>LTE_B7_3100_20M_Tx_On_ANT1</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20 M B41 25 dBm</TITLE>
+            <START>LTE_B41_40620_20M_Tx_On_ANT1</START>
+            <STOP>reset_modem</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2412 MHz CH0 20.5 dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_2.4GHz_Tx_on_2412_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2412 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2412_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2437 MHz CH0 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2437_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2437 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2437_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2462 MHz CH0 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2462_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2462 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2462_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH0 20.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5180_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5180_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+    <SETTINGS cameraid="1">
+        <COMMAND>
+            <TITLE>LTE 20 M B1 24.5 dBm</TITLE>
+            <START>LTE_B1_300_20M_Tx_On_ANT1</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20 M B7 24.5 dBm</TITLE>
+            <START>LTE_B7_3100_20M_Tx_On_ANT1</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20 M B41 25 dBm</TITLE>
+            <START>LTE_B41_40620_20M_Tx_On_ANT1</START>
+            <STOP>reset_modem</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2412 MHz CH0 20.5 dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_2.4GHz_Tx_on_2412_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2412 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2412_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2437 MHz CH0 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2437_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2437 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2437_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2462 MHz CH0 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2462_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 2.4 GHz 2462 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_2.4GHz_Tx_on_2462_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH0 20.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5180_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5180_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+    <SETTINGS cameraid="2">
+        <COMMAND>
+            <TITLE>LTE 20 M B1 24.5 dBm</TITLE>
+            <START>LTE_B1_300_20M_Tx_On_ANT1</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20 M B7 24.5 dBm</TITLE>
+            <START>LTE_B7_3100_20M_Tx_On_ANT1</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>LTE 20 M B41 25 dBm</TITLE>
+            <START>LTE_B41_40620_20M_Tx_On_ANT1</START>
+            <STOP>reset_modem</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH0 20.5 dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_5GHz_Tx_on_5180_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5180_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+    <SETTINGS cameraid="3">
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3350 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3350_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3550 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3550_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT4 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT4</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>N78 40 M 3750 MHz ANT6 24.5 dBm</TITLE>
+            <START>NR_N78_3750_40M_Tx_On_ANT6</START>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH0 20.5 dBm</TITLE>
+            <CREATE>WLAN_SWITCH_TEST_MODE</CREATE>
+            <START>WLAN_5GHz_Tx_on_5180_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5180 MHz CH1 20.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5180_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5500 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5500_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH0 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 5 GHz 5805 MHz CH1 17.5 dBm</TITLE>
+            <START>WLAN_5GHz_Tx_on_5805_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 5955 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_5955_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 6855 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_6855_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH0 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH0</START>
+            <STOP>Tx_off_2.4G</STOP>
+        </COMMAND>
+        <COMMAND>
+            <TITLE>WIFI 6 GHz 7115 MHz CH1 14.5 dBm</TITLE>
+            <START>WLAN_6GHz_Tx_on_7115_CH1</START>
+            <STOP>Tx_off_2.4G</STOP>
+            <DESTROY>WLAN_SWITCH_PRODUCT_MODE</DESTROY>
+        </COMMAND>
+    </SETTINGS>
+</CONFIG>

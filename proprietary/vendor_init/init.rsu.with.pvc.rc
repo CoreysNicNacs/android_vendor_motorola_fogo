@@ -1,0 +1,54 @@
+on post-fs-data
+    # Setup for Trustonic
+    mkdir /data/vendor/mcRegistry 0775 system system
+    mkdir /mnt/vendor/persist/mobicore 0775 system system
+    restorecon_recursive /data/vendor/mcRegistry
+    restorecon_recursive /mnt/vendor/persist/mobicore
+
+service trustonic-tbase /vendor/bin/tbaseLoader tbase
+    class late_start
+    user system
+    group system
+    oneshot
+    disabled
+
+# Used 'disabled' flag, so daemon won't be started until explicit start
+service trustonic-daemon /vendor/bin/mcDriverDaemon
+    class late_start
+    user system
+    group system
+    disabled
+
+# Used 'disabled' flag, so daemon won't be started until explicit start
+service rsudaemon /vendor/bin/rsudaemon
+    class late_start
+    user system
+    group system radio
+    disabled
+
+service mot_pvclicense /vendor/bin/mot_pvclicense
+     class late_start
+     user system
+     group system
+     oneshot
+
+service vendor.ssgtzd /vendor/bin/ssgtzd
+    class hal
+    user system
+    group system
+    oneshot
+    socket ssgtzd stream 0660 system inet
+    socket qwes_ipc stream 0660 system inet
+
+# Create the directories used by qwes
+on post-fs-data
+    mkdir /data/vendor/qwes 0755 system system
+
+# Start trustonic-tbase after mot_pvclicense completed
+on property:vendor.mot_pvclicense.loaded=1
+    start trustonic-tbase
+
+# Start daemon after boot completed
+on property:sys.boot_completed=1 && property:vendor.tbaseLoader.loaded=1
+    start trustonic-daemon
+    start rsudaemon

@@ -1,0 +1,124 @@
+<xml>
+    <ctbk_version>34</ctbk_version>
+    <wifi_tx_pwr>
+        <Default_5GHZ   index="0">20</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">20</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">19</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">20</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">20</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">20</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State3_2GHZ    index="6">18</State3_2GHZ> <!-- 2G,Minimum -->
+        <State3_5GHZ    index="7">19</State3_5GHZ> <!-- 5G,Minimum -->
+        <State4_5GHZ    index="8">19</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="9">19</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="10">19</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="11">19</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State8_5GHZ    index="12">19</State8_5GHZ>  <!--5G,Hand Held, WLAN+WWAN-->
+        <State9_5GHZ    index="13">19</State9_5GHZ>  <!--5G,Hand Held, WLAN only-->
+        <State4_2GHZ    index="14">20</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="15">20</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="16">18</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="17">18</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+        <State8_2GHZ    index="18">18</State8_2GHZ>  <!--2G,Hand Held, WLAN+WWAN-->
+        <State9_2GHZ    index="19">18</State9_2GHZ>  <!--2G,Hand Held, WLAN only-->
+        <State10_5GHZ   index="20">20</State10_5GHZ>  <!--5G,USB-Connected, WLAN only-->
+        <State11_5GHZ   index="21">20</State11_5GHZ>  <!--5G,USB-Connected, WLAN+WWAN-->
+        <State10_2GHZ   index="22">20</State10_2GHZ>  <!--2G,USB-Connected, WLAN only-->
+        <State11_2GHZ   index="23">20</State11_2GHZ>  <!--2G,USB-Connected, WLAN+WWAN-->
+    </wifi_tx_pwr>
+  <fcc_wifi_tx_pwr>
+        <Default_5GHZ   index="0">20</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">20</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">10</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">20</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">20</State1_2GHZ>  <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">13</State2_2GHZ>  <!--2G,MHS, WLAN+WAN-->
+        <State3_2GHZ    index="6">11</State3_2GHZ> <!-- 2G,Minimum -->
+        <State3_5GHZ    index="7">6</State3_5GHZ> <!-- 5G,Minimum -->
+        <State4_5GHZ    index="8">20</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="9">12</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="10">14</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="11">6</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="12">17</State4_2GHZ> <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="13">13</State5_2GHZ> <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="14">16</State6_2GHZ> <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="15">11</State7_2GHZ> <!--2G,Body-Worn, WLAN+WWAN-->
+        <State8_5GHZ    index="16">14</State8_5GHZ>  <!--5G,Hand-Held, WLAN+WWAN-->
+        <State9_5GHZ    index="17">19</State9_5GHZ>  <!--5G,Hand-Held, WLAN only-->
+        <State8_2GHZ    index="18">13</State8_2GHZ>  <!--2G,Hand-Held, WLAN+WWAN-->
+        <State9_2GHZ    index="19">19</State9_2GHZ>  <!--2G,Hand-Held, WLAN only-->
+        <State10_5GHZ   index="20">20</State10_5GHZ>  <!--5G,USB-Connected, WLAN only-->
+        <State11_5GHZ   index="21">20</State11_5GHZ>  <!--5G,USB-Connected, WLAN+WWAN-->
+        <State10_2GHZ   index="22">20</State10_2GHZ>  <!--2G,USB-Connected, WLAN only-->
+        <State11_2GHZ   index="23">20</State11_2GHZ>  <!--2G,USB-Connected, WLAN+WWAN-->
+    </fcc_wifi_tx_pwr>
+    <wifi_tx_pwr_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">20</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">19</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">19</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">19</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">20</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">19</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">19</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">19</Band4_5GHZ_Body_Worn>
+        <Band1_5GHZ_Hand_Held   index="8">20</Band1_5GHZ_Hand_Held>
+        <Band2_5GHZ_Hand_Held   index="9">19</Band2_5GHZ_Hand_Held>
+        <Band3_5GHZ_Hand_Held   index="10">19</Band3_5GHZ_Hand_Held>
+        <Band4_5GHZ_Hand_Held   index="11">19</Band4_5GHZ_Hand_Held>
+        <Band1_5GHZ_USB_Connected   index="12">20</Band1_5GHZ_USB_Connected>
+        <Band2_5GHZ_USB_Connected   index="13">20</Band2_5GHZ_USB_Connected>
+        <Band3_5GHZ_USB_Connected   index="14">20</Band3_5GHZ_USB_Connected>
+        <Band4_5GHZ_USB_Connected   index="15">20</Band4_5GHZ_USB_Connected>
+    </wifi_tx_pwr_5g_split_band>
+    <fcc_wifi_tx_pwr_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">16</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">16</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">19</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">19</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">12</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">12</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">15</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">13</Band4_5GHZ_Body_Worn>
+        <Band1_5GHZ_Hand_Held   index="8">20</Band1_5GHZ_Hand_Held>
+        <Band2_5GHZ_Hand_Held   index="9">19</Band2_5GHZ_Hand_Held>
+        <Band3_5GHZ_Hand_Held   index="10">19</Band3_5GHZ_Hand_Held>
+        <Band4_5GHZ_Hand_Held   index="11">19</Band4_5GHZ_Hand_Held>
+        <Band1_5GHZ_USB_Connected   index="12">20</Band1_5GHZ_USB_Connected>
+        <Band2_5GHZ_USB_Connected   index="13">20</Band2_5GHZ_USB_Connected>
+        <Band3_5GHZ_USB_Connected   index="14">20</Band3_5GHZ_USB_Connected>
+        <Band4_5GHZ_USB_Connected   index="15">20</Band4_5GHZ_USB_Connected>
+    </fcc_wifi_tx_pwr_5g_split_band>
+    <bt_tx_pwr>
+        <!--tip1. The bt tx power value of cap is in units of 0.25 dBm -->
+        <!--tip2. The typical range is between 0 and 80 units (i.e. 0 to 20 dBm) -->
+        <!--tip3. bt_tx_pwr state count same with wifi_tx_pwr and  wifi_tx_pwr_mimo -->
+        <!--  BR, EDR , LE -->
+        <Default index="0" >70,70,70</Default>    <!-- 2G|5G , Max power -->
+        <State1  index="1" >70,70,70</State1>     <!-- 2G|5G , WLAN+WWAN -->
+        <State2  index="2" >56,56,56</State2>     <!-- 2G|5G , MHS , WLAN+WAN -->
+        <State3  index="3" >56,56,56</State3>     <!-- 2G|5G , Minimum -->
+        <State4  index="4" >70,70,70</State4>     <!-- 2G|5G , At head , WLAN only -->
+        <State5  index="5" >56,56,56</State5>     <!-- 2G|5G , At head , WLAN+WWAN -->
+        <State6  index="6" >70,70,70</State6>     <!-- 2G|5G , Body-Worn , WLAN only -->
+        <State7  index="7" >56,56,56</State7>     <!-- 2G|5G , Body-Worn , WLAN+WWAN -->
+        <State8  index="8" >56,56,56</State8>     <!-- 2G|5G , Hand Held , WLAN+WWAN -->
+        <State9  index="9" >70,70,70</State9>     <!-- 2G|5G , Hand Held , WLAN only -->
+        <State10 index="10" >70,70,70</State10>    <!-- 2G|5G , USB-Connected , WLAN only -->
+        <State11 index="11" >70,70,70</State11>    <!-- 2G|5G , USB-Connected , WLAN+WWAN -->
+    </bt_tx_pwr>
+    <fcc_country_mcc_list>310,311,312,313,314,315,316,722,716,732,730,330,736,404,405,302,450</fcc_country_mcc_list>
+    <sar_sensors>
+        <sensor type="prox_front"               index="0">ltr569 Proximity Sensor Wakeup</sensor>
+        <sensor type="prox_back"                index="1">null</sensor>
+        <!--from back view-->
+        <sensor type="cap_bottom_center_left"   index="2">Moto CapSense Ch0</sensor> <!--ANT0, CS0-->
+        <sensor type="cap_bottom_right"         index="3">Moto CapSense Ch1</sensor> <!--ANT1, CS4-->
+        <sensor type="cap_top_right"            index="4">Moto CapSense Ch2</sensor> <!--ANT4, CS2-->
+        <sensor type="cap_top_center"           index="5">Moto CapSense Ch3</sensor> <!--ANT5, CS7-->
+        <sensor type="cap_top_left"             index="6">Moto CapSense Ch4</sensor> <!--ANT6, CS5-->
+    </sar_sensors>
+    <!--OB5 config: 5 = 00000101b (cap_bottom_center_left|cap_top_right)-->
+    <ob5_sensor_config>5</ob5_sensor_config>
+    <!--TX0 config: 16 = 00010000b (cap_top_left)-->
+    <wifi_tx0_sensor_config>16</wifi_tx0_sensor_config>
+</xml>
